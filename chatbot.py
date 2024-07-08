@@ -1,6 +1,5 @@
 import streamlit as st
 from transformers import pipeline
-import random
 
 # Load the sentiment-analysis and conversational pipeline
 sentiment_pipeline = pipeline("sentiment-analysis")
